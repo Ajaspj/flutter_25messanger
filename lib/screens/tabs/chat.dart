@@ -103,8 +103,8 @@ class _ChatScreenOneState extends State<ChatScreenOne> {
                   icon: Icon(Icons.send),
                   onPressed: () {
                     setState(() {
-                      messages.add(Message(
-                          content: "You: Hello!", isSentByCurrentUser: false));
+                      messages.add(
+                          Message(content: "", isSentByCurrentUser: false));
                     });
                   },
                 ),
