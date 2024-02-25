@@ -108,6 +108,14 @@ class _ChatScreenOneState extends State<ChatScreenOne> {
                     });
                   },
                 ),
+                FloatingActionButton(
+                  onPressed: () {
+                    Icon(
+                      Icons.mic,
+                      color: Colors.black,
+                    );
+                  },
+                )
               ],
             ),
           ),
